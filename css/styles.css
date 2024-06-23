@@ -1,1 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
