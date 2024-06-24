@@ -91,6 +91,8 @@ li {
 
         .bg-primary {
             background: var(--primary-color);
+            color: #333;
+            padding: 0 5px ;
         }
     }
 }
@@ -158,6 +160,20 @@ li {
             border-radius: 10px;
         }
     }
+}
+
+/* CONTACT */
+.bg-secondary {
+    background: var(--dark-color);
+}
+
+.text-secondary {
+    color: white;
+}
+
+/* Form */
+.form {
+    text-align: center;
 }
 
 
