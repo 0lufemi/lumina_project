@@ -51,7 +51,7 @@ li {
 
 /* HEADER */
 .header {
-    margin-top: 16px;
+    margin-top: 20px;
     .menu {
         display: flex;
         gap: 32px;
@@ -63,6 +63,10 @@ li {
             &:hover {
                 background: var(--primary-color);
             }
+
+            /* &:active {
+                background: var(--primary-color);
+            } */
 
         }
     }
@@ -112,6 +116,50 @@ li {
         }
     }
 }
+
+/* OUR SERVICES */
+.our-services {
+    padding: 3rem 0;
+    background: var(--dark-color);
+    color: white;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.service {
+    padding: 1rem;
+}
+
+.services-flex {
+    display: flex;
+}
+
+/* Our team */
+.our-team {
+    padding: 48px 0 64px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.team-container {
+    gap: 20px;
+
+    .team {
+        width: calc(33.33% - 20px);
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+
 
 /* FOOTER */
 .footer {
