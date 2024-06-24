@@ -117,15 +117,35 @@ li {
 .footer {
     margin-top: 2rem;
     border-top: 1px solid black;
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 .footer-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    .contact {
+        h2 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+    }
 
     .logo {
         width: 120px;
+    }
+
+    .socials {
+        h2 {
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        a {
+            color: var(--dark-color);
+            font-size: 32px;
+            margin-right: 16px;
+        }
     }
 }
